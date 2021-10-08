@@ -187,3 +187,69 @@
     color: #df3033;
     text-align: center;
 }
+/* 家用电器模块 */
+.jiadian .box_hd{
+    height: 30px;
+    border-bottom: 2px solid #c81623;
+}
+.box_hd h3{
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+}
+.tab_list{
+    float: right;
+    height: 30px;
+}
+.tab_list ul li{
+    float: left;
+    line-height: 30px;
+}
+.tab_list ul li a{
+    margin:0 15px;
+}
+.floor .w{
+    margin-top: 30px;
+}
+.jiadian .box_bd{
+    height: 361px;
+}
+.tab_list_item > div{
+    float: left;
+    height: 361px;
+}
+.col_210{
+    width: 210px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+.col_210 ul{
+    padding-left: 12px;
+}
+.col_210 ul li{
+    float: left;
+    width: 85px;
+    height: 34px;
+    margin-left: 10px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    line-height: 33px;
+}
+.col_329{
+    width: 329px;
+}
+.col_329 img{
+    height: 361px;
+}
+.col_221{
+    width: 221px;
+    border-right: 1px solid #ccc;
+}
+.col_219{
+    width: 219px;
+}
+.bb{
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
