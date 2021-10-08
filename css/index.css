@@ -116,3 +116,74 @@
     height: 145px;
     background-color: #ddd;
 }
+/* guess_like 猜你喜欢模块制作  */
+.guess_like{
+    height: 292px;
+
+}
+.guess_like .tit{
+    height: 59px;
+}
+.guess_like .tit p{
+    display: inline-block;
+}
+.guess_like .tit .dd{
+    float: left;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.guess_like .tit .dt{
+    float: right;
+    font-size: 12px;
+    margin-top: 36px;
+}
+.guess_like .tit .dt::after{
+    content: "  \ea2e";
+    font-family: "icomoon";
+    margin-right: 18px;
+    font-size: 12px;
+}
+.guess_like .b_box{
+    width: 1200px;
+    height: 233px;
+}
+.guess_like .b_box ul{
+    width: 1200px;
+    height: 233px;
+    padding: 0;
+    border: 1px solid #ededed;
+}
+.guess_like .b_box ul li{
+    float: left;
+    width: 200px;
+    height: 233px;
+    overflow: hidden;
+}
+.guess_like .b_box ul li:last-child{
+    width: 194px;
+}
+.guess_like .b_box img{
+    width: 201px;
+    height: 155px;
+}
+.guess_like .b_box ul li .text{
+    width: 200px;
+    height: 78px;
+}
+.text .line{
+    width: 1px;
+    height: 57px;
+    border-right: 1px solid #ccc;
+    margin-top: -63px;
+}
+.guess_like .b_box ul li .text h4{
+    text-align: center;
+    font-size: 12px;
+    height: 38px;
+    word-spacing: 5px;
+}
+.guess_like .b_box ul li .text p{
+    font-size: 18px;
+    color: #df3033;
+    text-align: center;
+}
